@@ -10,6 +10,12 @@ namespace Home_Screen
         private void Form1_Load(object sender, EventArgs e)
         {
             Dock = DockStyle.Fill;
+
+            //let us say you make your change for the Login/registration here right?
+            btnAbout.Enabled = false; 
+
+            //the above is just an example of any change i'm making on the cloned/copied project
+            //the next step is to update the change and submit it to github
         }
 
 
