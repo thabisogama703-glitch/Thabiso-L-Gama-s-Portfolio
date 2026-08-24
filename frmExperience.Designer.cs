@@ -1,6 +1,6 @@
 ﻿namespace Home_Screen
 {
-    partial class frmAboutMe
+    partial class frmExperience
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             SuspendLayout();
             // 
-            // frmAboutMe
+            // frmExperience
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1253, 812);
-            Name = "frmAboutMe";
-            Text = "About_me";
+            Name = "frmExperience";
+            Text = "Experience";
             ResumeLayout(false);
         }
 
