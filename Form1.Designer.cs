@@ -44,7 +44,7 @@
             textBox1 = new TextBox();
             btnViewMyProjects = new Button();
             btnContactMe = new Button();
-            button1 = new Button();
+            btnDownloadCv2 = new Button();
             SuspendLayout();
             // 
             // btnAbout
@@ -65,6 +65,7 @@
             btnSkills.TabIndex = 1;
             btnSkills.Text = "Skills";
             btnSkills.UseVisualStyleBackColor = true;
+            btnSkills.Click += btnSkills_Click;
             // 
             // btnProjects
             // 
@@ -74,6 +75,7 @@
             btnProjects.TabIndex = 2;
             btnProjects.Text = "Projects";
             btnProjects.UseVisualStyleBackColor = true;
+            btnProjects.Click += btnProjects_Click;
             // 
             // btnExperience
             // 
@@ -83,6 +85,7 @@
             btnExperience.TabIndex = 3;
             btnExperience.Text = "Experience";
             btnExperience.UseVisualStyleBackColor = true;
+            btnExperience.Click += btnExperience_Click;
             // 
             // btnEducation
             // 
@@ -92,6 +95,7 @@
             btnEducation.TabIndex = 4;
             btnEducation.Text = "Education";
             btnEducation.UseVisualStyleBackColor = true;
+            btnEducation.Click += btnEducation_Click;
             // 
             // btnJourney
             // 
@@ -101,6 +105,7 @@
             btnJourney.TabIndex = 5;
             btnJourney.Text = "Journey";
             btnJourney.UseVisualStyleBackColor = true;
+            btnJourney.Click += btnJourney_Click;
             // 
             // btnContact
             // 
@@ -110,6 +115,7 @@
             btnContact.TabIndex = 6;
             btnContact.Text = "Contact";
             btnContact.UseVisualStyleBackColor = true;
+            btnContact.Click += btnContact_Click;
             // 
             // btnDownloadCv
             // 
@@ -119,6 +125,7 @@
             btnDownloadCv.TabIndex = 7;
             btnDownloadCv.Text = "Download CV";
             btnDownloadCv.UseVisualStyleBackColor = true;
+            btnDownloadCv.Click += btnDownloadCv_Click;
             // 
             // lblPortfolioName
             // 
@@ -182,6 +189,7 @@
             btnViewMyProjects.TabIndex = 14;
             btnViewMyProjects.Text = "View My Projects";
             btnViewMyProjects.UseVisualStyleBackColor = true;
+            btnViewMyProjects.Click += btnViewMyProjects_Click;
             // 
             // btnContactMe
             // 
@@ -191,17 +199,18 @@
             btnContactMe.TabIndex = 15;
             btnContactMe.Text = "Contact Me";
             btnContactMe.UseVisualStyleBackColor = true;
+            btnContactMe.Click += btnContactMe_Click;
             // 
-            // button1
+            // btnDownloadCv2
             // 
-            button1.FlatStyle = FlatStyle.System;
-            button1.Location = new Point(410, 666);
-            button1.Name = "button1";
-            button1.Size = new Size(124, 29);
-            button1.TabIndex = 16;
-            button1.Text = "Download CV";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnDownloadCv2.FlatStyle = FlatStyle.System;
+            btnDownloadCv2.Location = new Point(410, 666);
+            btnDownloadCv2.Name = "btnDownloadCv2";
+            btnDownloadCv2.Size = new Size(124, 29);
+            btnDownloadCv2.TabIndex = 16;
+            btnDownloadCv2.Text = "Download CV";
+            btnDownloadCv2.UseVisualStyleBackColor = true;
+            btnDownloadCv2.Click += btnDownloadCv2_Click;
             // 
             // frmHomeScreen
             // 
@@ -209,7 +218,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             ClientSize = new Size(1253, 812);
-            Controls.Add(button1);
+            Controls.Add(btnDownloadCv2);
             Controls.Add(btnContactMe);
             Controls.Add(btnViewMyProjects);
             Controls.Add(textBox1);
@@ -250,6 +259,6 @@
         private TextBox textBox1;
         private Button btnViewMyProjects;
         private Button btnContactMe;
-        private Button button1;
+        private Button btnDownloadCv2;
     }
 }
